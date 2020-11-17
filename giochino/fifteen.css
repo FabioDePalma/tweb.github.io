@@ -1,0 +1,21 @@
+body{
+    font-size: 14pt;
+    font-family: cursive;
+    text-align: center;
+}
+
+#puzzlearea{
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    position: relative;
+}
+
+#puzzlearea > div{
+    border: black 5px solid;
+    width: 90px;
+    height: 90px;
+    font-size: 40pt;
+    position: absolute;
+    background-image: url("background.jpg");
+}
